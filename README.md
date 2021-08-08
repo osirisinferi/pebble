@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/letsencrypt/pebble.svg?branch=master)](https://travis-ci.org/letsencrypt/pebble)
 [![Coverage Status](https://coveralls.io/repos/github/letsencrypt/pebble/badge.svg?branch=cpu-goveralls)](https://coveralls.io/github/letsencrypt/pebble?branch=cpu-goveralls)
-[![Go Report Card](https://goreportcard.com/badge/github.com/letsencrypt/pebble)](https://goreportcard.com/report/github.com/letsencrypt/pebble)
+[![Go Report Card](https://goreportcard.com/badge/github.com/osirisinferi/pebble)](https://goreportcard.com/report/github.com/osirisinferi/pebble)
 
 A miniature version of [Boulder](https://github.com/letsencrypt/boulder), Pebble
 is a small [ACME](https://github.com/ietf-wg-acme/acme) test server not suited
@@ -68,7 +68,7 @@ correctly.
 
 1. [Set up Go](https://golang.org/doc/install). Add ~/go/bin to your $PATH, or
    set GOBIN to a directory that is in your $PATH already.
-2. git clone github.com/letsencrypt/pebble/
+2. git clone github.com/osirisinferi/pebble/
 3. cd pebble
 4. go install ./cmd/pebble
 
@@ -110,7 +110,7 @@ curl --request POST --data '{"ip":"172.20.0.1"}' http://localhost:8055/set-defau
 ```
 
 See the [pebble-challtestsrv
-README](https://github.com/letsencrypt/pebble/blob/master/cmd/pebble-challtestsrv/README.md)
+README](https://github.com/osirisinferi/pebble/blob/master/cmd/pebble-challtestsrv/README.md)
 for more information.
 
 #### Prebuilt Docker Images
@@ -195,7 +195,7 @@ You may find it useful to set `pebble`'s `-dnsserver` to the address you used as
 the `-dns01` argument when starting up a `pebble-challtestsrv` instance. This
 will let you easily mock DNS data for Pebble. See the included
 `docker-compose.yml` and the [pebble-challtestsrv
-README](https://github.com/letsencrypt/pebble/blob/master/cmd/pebble-challtestsrv/README.md)
+README](https://github.com/osirisinferi/pebble/blob/master/cmd/pebble-challtestsrv/README.md)
 for more information.
 
 ### Testing at full speed

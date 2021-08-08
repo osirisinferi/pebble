@@ -1,4 +1,4 @@
-module github.com/letsencrypt/pebble/v2
+module github.com/osirisinferi/pebble/v2
 
 require (
 	github.com/letsencrypt/challtestsrv v1.2.1
