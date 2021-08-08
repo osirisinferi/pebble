@@ -1,4 +1,4 @@
-module github.com/letsencrypt/pebble
+module github.com/osirisinferi/pebble
 
 require (
 	github.com/google/go-cmp v0.5.6 // indirect

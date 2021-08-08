@@ -28,11 +28,11 @@ import (
 
 	"gopkg.in/square/go-jose.v2"
 
-	"github.com/letsencrypt/pebble/acme"
-	"github.com/letsencrypt/pebble/ca"
-	"github.com/letsencrypt/pebble/core"
-	"github.com/letsencrypt/pebble/db"
-	"github.com/letsencrypt/pebble/va"
+	"github.com/osirisinferi/pebble/acme"
+	"github.com/osirisinferi/pebble/ca"
+	"github.com/osirisinferi/pebble/core"
+	"github.com/osirisinferi/pebble/db"
+	"github.com/osirisinferi/pebble/va"
 )
 
 const (

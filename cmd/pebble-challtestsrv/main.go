@@ -1,5 +1,5 @@
 // The pebble-challtestsrv command line tool exposes the
-// github.com/letsencrypt/pebble/challtestsrv package as
+// github.com/osirisinferi/pebble/challtestsrv package as
 // a stand-alone binary with an HTTP management interface.
 package main
 
@@ -12,7 +12,7 @@ import (
 	"strings"
 
 	"github.com/letsencrypt/challtestsrv"
-	"github.com/letsencrypt/pebble/cmd"
+	"github.com/osirisinferi/pebble/cmd"
 )
 
 // managementServer is a small HTTP server that can control a challenge server,
