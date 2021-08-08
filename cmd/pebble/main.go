@@ -37,6 +37,12 @@ type config struct {
 	}
 }
 
+// build flags
+var (
+	CommitHash string
+	BranchName string
+)
+
 func main() {
 	configFile := flag.String(
 		"config",
@@ -58,7 +64,7 @@ func main() {
 
 	// Log to stdout
 	logger := log.New(os.Stdout, "Pebble ", log.LstdFlags)
-	logger.Printf("Starting Pebble ACME server")
+	logger.Printf("Starting Pebble ACME server (Osiris Inferis Fork: %s, %s)", BranchName, CommitHash)
 
 	var c config
 	err := cmd.ReadConfigFile(*configFile, &c)
