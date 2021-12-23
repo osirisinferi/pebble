@@ -6,6 +6,8 @@ github.com/letsencrypt/challtestsrv v1.2.1 h1:Lzv4jM+wSgVMCeO5a/F/IzSanhClstFMnX
 github.com/letsencrypt/challtestsrv v1.2.1/go.mod h1:Ur4e4FvELUXLGhkMztHOsPIsvGxD/kzSJninOrkM+zc=
 github.com/miekg/dns v1.1.43 h1:JKfpVSCB84vrAmHzyrsxB5NAr5kLoMXZArPSw7Qlgyg=
 github.com/miekg/dns v1.1.43/go.mod h1:+evo5L0630/F6ca/Z9+GAqzhjGyn8/c+TBaOyfEl0V4=
+github.com/otrv4/ed448 v0.0.0-20210127123821-203e597250c3 h1:FvC2RYtXGP1JGqCkC/rNfD1Ccdi37KYMfYaBTJ33puA=
+github.com/otrv4/ed448 v0.0.0-20210127123821-203e597250c3/go.mod h1:DjzKOYp/KeBguDPfGuSe0/h5+P5w6gHBpLlXyttsAjc=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=

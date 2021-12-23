@@ -6,6 +6,9 @@ github.com/letsencrypt/challtestsrv
 # github.com/miekg/dns v1.1.43
 ## explicit
 github.com/miekg/dns
+# github.com/otrv4/ed448 v0.0.0-20210127123821-203e597250c3
+## explicit
+github.com/otrv4/ed448
 # github.com/stretchr/testify v1.7.0
 ## explicit
 # golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
